@@ -40,29 +40,29 @@ end
                         .view;
   ```
   
-  #### 2.用系统方法创建视图
-  * 如果用系统方法创建视图，想要使用链式，只需要调用以“tool”为后缀的方法；
-  * 可以用`addToSuperView`替代系统`addSubView`将该视图添加到父视图上；
-  * 按以上方式创建视图的案例如下：
-    ```
-    //用链式调用添加到父视图中
-    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, 30, 30)];
-    imageView.imageViewTool
-         .backgroundColor([UIColor greenColor])
-         .userInteractionEnabled(YES)
-         .addToSuperView(self)
-         .view
-         .addTapGesture
-         .tapGestureTool
-         .addTarget(self, @selector(tap:));
-	 
-    //用系统添加方式添加到父视图中
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.buttonTool
-       .frame(CGRectMake(10, 10, 100, 30))
-       .backgroundColor([UIColor purpleColor])
-       .setTitle(@"随便点", UIControlStateNormal)
-       .setTitleColor([UIColor whiteColor], UIControlStateNormal)
-       .addTarget(self, @selector(buttonClick:), UIControlEventTouchUpInside);
-    [self addSubview:button];
-    ```
+#### 2.用系统方法创建视图
+* 如果用系统方法创建视图，想要使用链式，只需要调用以“tool”为后缀的方法；
+* 可以用`addToSuperView`替代系统`addSubView`将该视图添加到父视图上；
+* 按以上方式创建视图的案例如下：
+  ```
+  //用链式调用添加到父视图中
+  UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, 30, 30)];
+  imageView.imageViewTool
+       .backgroundColor([UIColor greenColor])
+       .userInteractionEnabled(YES)
+       .addToSuperView(self)
+       .view
+       .addTapGesture
+       .tapGestureTool
+       .addTarget(self, @selector(tap:));
+ 
+  //用系统添加方式添加到父视图中
+  UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+  button.buttonTool
+     .frame(CGRectMake(10, 10, 100, 30))
+     .backgroundColor([UIColor purpleColor])
+     .setTitle(@"随便点", UIControlStateNormal)
+     .setTitleColor([UIColor whiteColor], UIControlStateNormal)
+     .addTarget(self, @selector(buttonClick:), UIControlEventTouchUpInside);
+  [self addSubview:button];
+  ```
