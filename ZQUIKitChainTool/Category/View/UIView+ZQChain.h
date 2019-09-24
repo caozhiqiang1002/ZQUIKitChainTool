@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-#import "ZQUIKitChainTool.h"
+#import "ZQUIKitChainDefine.h"
 
 @interface UIView (ZQChain)
 

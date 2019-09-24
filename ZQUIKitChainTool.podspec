@@ -35,54 +35,68 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/caozhiqiang1002/ZQUIKitChainTool.git", :tag => "#{s.version}" }
 
   # 公共头文件
-  s.public_header_files = 'ZQUIKitChainTool/*.{h}', 'ZQUIKitChainTool/**/**/*.{h}'
-  
-  # 私有头文件
-  s.private_header_files = 'ZQUIKitChainTool/Chain/Base/UIView+ZQFrame.h'
+  s.public_header_files = 'ZQUIKitChainTool/*.{h}'
   
   # 源文件
-  s.source_files = 'ZQUIKitChainTool/ZQUIKitChainTool.h'
+  s.source_files = 'ZQUIKitChainTool/*.{h}'
   
   # 是否支持arc
   s.requires_arc = true
 
   # 支持的最低版本
   s.ios.deployment_target = '9.0'
-
+  
   s.subspec 'Category' do |cate|
-    
+  
     cate.subspec 'View' do |v|
+      v.public_header_files = 'ZQUIKitChainTool/Category/View/*.{h}'
+      v.dependency 'ZQUIKitChainTool/Chain'
       v.source_files = 'ZQUIKitChainTool/Category/View'
     end
     
     cate.subspec 'BarItem' do |bar|
+      bar.public_header_files = 'ZQUIKitChainTool/Category/BarItem/*.{h}'
+      bar.dependency 'ZQUIKitChainTool/Chain'
       bar.source_files = 'ZQUIKitChainTool/Category/BarItem'
     end
 
   end
 
   s.subspec 'Chain' do |chain|
+    
+    chain.public_header_files = 'ZQUIKitChainTool/Chain/*.{h}'
+    chain.source_files = 'ZQUIKitChainTool/Chain/*.{h}'
 
-    chain.subspec 'Base' do |base|
-      base.source_files = 'ZQUIKitChainTool/Chain/Base'
+    chain.subspec 'Base' do |b|
+      b.public_header_files = 'ZQUIKitChainTool/Chain/Base/*.{h}'
+      b.private_header_files = 'ZQUIKitChainTool/Chain/Base/UIView+ZQFrame.h'
+      b.source_files = 'ZQUIKitChainTool/Chain/Base'
     end
 
     chain.subspec 'BarItem' do |bar|
+      bar.public_header_files = 'ZQUIKitChainTool/Chain/BarItem/*.{h}'
+      bar.dependency 'ZQUIKitChainTool/Chain/Base'
       bar.source_files = 'ZQUIKitChainTool/Chain/BarItem'
     end
 
     chain.subspec 'View' do |v|
+      v.public_header_files = 'ZQUIKitChainTool/Chain/View/*.{h}'
+      v.dependency 'ZQUIKitChainTool/Chain/Base'
       v.source_files = 'ZQUIKitChainTool/Chain/View'
     end
 
     chain.subspec 'Gesture' do |g|
+      g.public_header_files = 'ZQUIKitChainTool/Chain/Gesture/*.{h}'
+      g.dependency 'ZQUIKitChainTool/Chain/Base'
       g.source_files = 'ZQUIKitChainTool/Chain/Gesture'
     end
 
     chain.subspec 'Control' do |con|
+      con.public_header_files = 'ZQUIKitChainTool/Chain/Control/*.{h}'
+      con.dependency 'ZQUIKitChainTool/Chain/Base'
       con.source_files = 'ZQUIKitChainTool/Chain/Control'
     end
-
+    
   end
 
 end

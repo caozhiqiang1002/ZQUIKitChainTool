@@ -7,7 +7,6 @@
 //
 
 #import "ZQBaseBarItemChainTool.h"
-#import "ZQUIKitChainTool.h"
 
 #define ZQ_CHAIN_TOOL_BASE_ITEM_IMPLEMENT(attr_class, attr_name, ...) \
 - (id(^)(attr_class))attr_name __VA_ARGS__ { \
