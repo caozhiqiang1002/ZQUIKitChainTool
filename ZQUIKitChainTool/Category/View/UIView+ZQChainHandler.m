@@ -16,15 +16,6 @@
     return subView; \
 } \
 
-// collectionView 创建
-#define ZQ_UIKIT_CATEGORY_COLLECTION_ADD_IMPLEMENT(method) \
-- (UICollectionView *)method { \
-    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init]; \
-    UICollectionView *subView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:layout]; \
-    [self addSubview:subView]; \
-    return subView; \
-} \
-
 //Gesture
 #define ZQ_UIKIT_CATEGORY_GESTURE_ADD_IMPLEMENT(class, method) \
 - (class *)method { \
@@ -42,13 +33,19 @@ ZQ_UIKIT_CATEGORY_ADD_IMPLEMENT(UILabel, addLabel);
 ZQ_UIKIT_CATEGORY_ADD_IMPLEMENT(UIImageView, addImageView);
 ZQ_UIKIT_CATEGORY_ADD_IMPLEMENT(UIScrollView, addScrollView);
 ZQ_UIKIT_CATEGORY_ADD_IMPLEMENT(UITableView, addTableView);
-ZQ_UIKIT_CATEGORY_COLLECTION_ADD_IMPLEMENT(addCollectionView);
 ZQ_UIKIT_CATEGORY_ADD_IMPLEMENT(UITextView, addTextView);
 ZQ_UIKIT_CATEGORY_ADD_IMPLEMENT(UITextField, addTextField);
 ZQ_UIKIT_CATEGORY_ADD_IMPLEMENT(UIPickerView, addPickerView);
 ZQ_UIKIT_CATEGORY_ADD_IMPLEMENT(WKWebView, addWebView);
 ZQ_UIKIT_CATEGORY_ADD_IMPLEMENT(UIProgressView, addProgressView);
 ZQ_UIKIT_CATEGORY_ADD_IMPLEMENT(UIActivityIndicatorView, addActivityIndicatorView);
+
+- (UICollectionView *)addCollectionView {
+    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
+    UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:layout];
+    [self addSubview:collectionView];
+    return collectionView;
+}
 
 #pragma mark - Control
 

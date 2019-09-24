@@ -22,6 +22,8 @@
 #import "ZQWKWebViewChainTool.h"
 #import "ZQUIProgressViewChainTool.h"
 #import "ZQUIActivityIndicatorViewChainTool.h"
+#import "ZQUICollectionReusableViewChainTool.h"
+#import "ZQUITableViewCellChainTool.h"
 
 
 // Control
@@ -47,6 +49,8 @@
 #import "UIView+ZQChain.h"
 #import "UIView+ZQFrame.h"
 #import "UIBarItem+ZQChain.h"
+#import "UIControl+ZQChain.h"
+#import "UIGestureRecognizer+ZQChain.h"
 
 #endif /* ZQUIKitChainTool_h */
 

@@ -24,6 +24,8 @@
 - (ZQWKWebViewChainTool *)webViewTool;
 - (ZQUIProgressViewChainTool *)progressViewTool;
 - (ZQUIActivityIndicatorViewChainTool *)activityIndicatorViewTool;
-
+- (ZQUICollectionReusableViewChainTool *)reusableViewTool;
+- (ZQUICollectionViewCellChainTool *)collectionCellTool;
+- (ZQUITableViewCellChainTool *)tableCellTool;
 
 @end

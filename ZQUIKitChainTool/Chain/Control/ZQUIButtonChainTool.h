@@ -29,5 +29,7 @@ ZQ_CHAIN_TOOL_INTERFACE(ZQUIButtonChainTool, BOOL, adjustsImageWhenDisabled);
 - (ZQUIButtonChainTool *(^)(UIImage *, UIControlState))setImage;
 - (ZQUIButtonChainTool *(^)(UIImage *, UIControlState))setBackgroundImage;
 - (ZQUIButtonChainTool *(^)(NSAttributedString *, UIControlState))setAttributedTitle;
+- (ZQUIButtonChainTool *(^)(UIFont *))setFont;
+- (ZQUIButtonChainTool *(^)(NSTextAlignment))setTextAlignment;
 
 @end

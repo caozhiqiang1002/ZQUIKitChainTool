@@ -65,4 +65,20 @@ ZQ_CHAIN_TOOL_IMPLEMENT(UIButton, ZQUIButtonChainTool, BOOL, adjustsImageWhenDis
     };
 }
 
+- (ZQUIButtonChainTool *(^)(UIFont *))setFont {
+    return ^ZQUIButtonChainTool *(UIFont *font) {
+        UIButton *button = self.view;
+        button.titleLabel.font = font;
+        return self;
+    };
+}
+
+- (ZQUIButtonChainTool *(^)(NSTextAlignment))setTextAlignment {
+    return ^ZQUIButtonChainTool *(NSTextAlignment alignment) {
+        UIButton *button = self.view;
+        button.titleLabel.textAlignment = alignment;
+        return self;
+    };
+}
+
 @end

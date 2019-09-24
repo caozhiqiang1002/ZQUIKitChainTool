@@ -218,4 +218,25 @@ ZQ_CHAIN_TOOL_BASE_IMPLEMENT(CGFloat, centerY);
     };
 }
 
+- (id (^)(CGFloat))cornerRadius {
+    return ^id(CGFloat cornerRadius) {
+        self.view.layer.cornerRadius = cornerRadius;
+        return self;
+    };
+}
+
+- (id (^)(CGColorRef))borderColor {
+    return ^id(CGColorRef borderColorRef) {
+        self.view.layer.borderColor = borderColorRef;
+        return self;
+    };
+}
+
+- (id (^)(CGFloat))borderWidth {
+    return ^id(CGFloat borderWidth) {
+        self.view.layer.borderWidth = borderWidth;
+        return self;
+    };
+}
+
 @end

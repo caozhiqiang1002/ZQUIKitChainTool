@@ -39,7 +39,10 @@ Pod::Spec.new do |s|
   
   # 私有头文件
   s.private_header_files = 'ZQUIKitChainTool/Chain/Base/UIView+ZQFrame.h'
-
+  
+  # 源文件
+  s.source_files = 'ZQUIKitChainTool/ZQUIKitChainTool.h'
+  
   # 是否支持arc
   s.requires_arc = true
 

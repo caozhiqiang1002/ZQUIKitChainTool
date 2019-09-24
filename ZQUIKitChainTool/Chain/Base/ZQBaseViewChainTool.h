@@ -53,8 +53,6 @@ ZQ_CHAIN_TOOL_BASE_INTERFACE(UIEdgeInsets, layoutMargins);
 ZQ_CHAIN_TOOL_BASE_INTERFACE(BOOL, userInteractionEnabled);
 ZQ_CHAIN_TOOL_BASE_INTERFACE(BOOL, preservesSuperviewLayoutMargins);
 ZQ_CHAIN_TOOL_BASE_INTERFACE(BOOL, insetsLayoutMarginsFromSafeArea, API_AVAILABLE(ios(11.0)));
-
-
 ZQ_CHAIN_TOOL_BASE_INTERFACE(BOOL, clipsToBounds);
 ZQ_CHAIN_TOOL_BASE_INTERFACE(BOOL, opaque);
 ZQ_CHAIN_TOOL_BASE_INTERFACE(BOOL, clearsContextBeforeDrawing);
@@ -101,4 +99,10 @@ ZQ_CHAIN_TOOL_BASE_INTERFACE(CGFloat, centerY);
 - (T(^)(CGRect))drawRect;
 - (T(^)(CGRect))setNeedsDisplayInRect;
 
+//图层相关
+- (T(^)(CGFloat))cornerRadius;
+- (T(^)(CGColorRef))borderColor;
+- (T(^)(CGFloat))borderWidth;
+
 @end
+

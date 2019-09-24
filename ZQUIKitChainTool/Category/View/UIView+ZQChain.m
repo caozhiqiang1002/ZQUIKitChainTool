@@ -34,6 +34,8 @@ ZQ_UIKIT_CATEGORY_TOOL_IMPLEMENT(ZQUIPickerViewChainTool, pickerViewTool);
 ZQ_UIKIT_CATEGORY_TOOL_IMPLEMENT(ZQWKWebViewChainTool, webViewTool);
 ZQ_UIKIT_CATEGORY_TOOL_IMPLEMENT(ZQUIProgressViewChainTool, progressViewTool);
 ZQ_UIKIT_CATEGORY_TOOL_IMPLEMENT(ZQUIActivityIndicatorViewChainTool, activityIndicatorViewTool);
-
+ZQ_UIKIT_CATEGORY_TOOL_IMPLEMENT(ZQUICollectionReusableViewChainTool, reusableViewTool);
+ZQ_UIKIT_CATEGORY_TOOL_IMPLEMENT(ZQUICollectionViewCellChainTool, collectionCellTool);
+ZQ_UIKIT_CATEGORY_TOOL_IMPLEMENT(ZQUITableViewCellChainTool, tableCellTool);
 
 @end
