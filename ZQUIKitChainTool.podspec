@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
 
   # 公共头文件
   s.public_header_files = 'ZQUIKitChainTool/*.{h}'
-  
+
   # 源文件
   s.source_files = 'ZQUIKitChainTool/*.{h}'
   
@@ -45,22 +45,6 @@ Pod::Spec.new do |s|
 
   # 支持的最低版本
   s.ios.deployment_target = '9.0'
-  
-  s.subspec 'Category' do |cate|
-  
-    cate.subspec 'View' do |v|
-      v.public_header_files = 'ZQUIKitChainTool/Category/View/*.{h}'
-      v.dependency 'ZQUIKitChainTool/Chain'
-      v.source_files = 'ZQUIKitChainTool/Category/View'
-    end
-    
-    cate.subspec 'BarItem' do |bar|
-      bar.public_header_files = 'ZQUIKitChainTool/Category/BarItem/*.{h}'
-      bar.dependency 'ZQUIKitChainTool/Chain'
-      bar.source_files = 'ZQUIKitChainTool/Category/BarItem'
-    end
-
-  end
 
   s.subspec 'Chain' do |chain|
     
@@ -96,7 +80,21 @@ Pod::Spec.new do |s|
       con.dependency 'ZQUIKitChainTool/Chain/Base'
       con.source_files = 'ZQUIKitChainTool/Chain/Control'
     end
-    
   end
+  
+  s.subspec 'Category' do |cate|
 
+    cate.subspec 'View' do |v|
+      v.public_header_files = 'ZQUIKitChainTool/Category/View/*.{h}'
+      v.dependency 'ZQUIKitChainTool/Chain'
+      v.source_files = 'ZQUIKitChainTool/Category/View'
+    end
+
+    cate.subspec 'BarItem' do |bar|
+      bar.public_header_files = 'ZQUIKitChainTool/Category/BarItem/*.{h}'
+      bar.dependency 'ZQUIKitChainTool/Chain'
+      bar.source_files = 'ZQUIKitChainTool/Category/BarItem'
+    end
+  end
+  
 end
