@@ -13,6 +13,9 @@ platform :ios, '9.0'
 
 target 'PROJECT_NAME' do
    pod 'ZQUIKitChainTool', :source => 'https://github.com/caozhiqiang1002/CZQSpecs.git'
+   
+   # 如果想要使用 Masonry，需要将其引入
+   pod 'Masonry'
 end
 ```
 
