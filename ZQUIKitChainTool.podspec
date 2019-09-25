@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.name         = "ZQUIKitChainTool"
  
   # 组件版本号
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
  
   # 组件简介
   s.summary      = "访问系统相册的组件"
@@ -39,6 +39,9 @@ Pod::Spec.new do |s|
 
   # 源文件
   s.source_files = 'ZQUIKitChainTool/*.{h}'
+  
+  # 系统依赖库
+  s.frameworks = 'Foundation', 'UIKit'
   
   # 是否支持arc
   s.requires_arc = true

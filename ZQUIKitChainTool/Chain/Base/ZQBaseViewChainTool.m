@@ -71,6 +71,29 @@ ZQ_CHAIN_TOOL_BASE_IMPLEMENT(CGFloat, centerY);
 
 #pragma mark - Chain Method
 
+#ifdef ZQ_HAS_MASONRY
+- (id (^)(void(^)(MASConstraintMaker *)))mas_makeConstraints {
+    return ^id(void(^block)(MASConstraintMaker *)) {
+        [self.view mas_makeConstraints:block];
+        return self;
+    };
+}
+
+- (id (^)(void (^)(MASConstraintMaker *)))mas_updateConstraints {
+    return ^id(void(^block)(MASConstraintMaker *)) {
+        [self.view mas_updateConstraints:block];
+        return self;
+    };
+}
+
+- (id (^)(void (^)(MASConstraintMaker *)))mas_remakeConstraints {
+    return ^id(void(^block)(MASConstraintMaker *)) {
+        [self.view mas_remakeConstraints:block];
+        return self;
+    };
+}
+#endif
+
 - (id (^)(void))removeFromSuperview {
     return ^id(void) {
         [self.view removeFromSuperview];

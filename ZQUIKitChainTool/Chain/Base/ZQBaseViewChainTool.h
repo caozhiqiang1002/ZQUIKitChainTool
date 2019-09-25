@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+#if __has_include(<Masonry/Masonry.h>)
+#define ZQ_HAS_MASONRY
+#import <Masonry/Masonry.h>
+#endif
+
 // 派生类使用
 #define ZQ_CHAIN_TOOL_INTERFACE(tool_class, attr_class, attr_name, ...) \
 - (tool_class *(^)(attr_class))attr_name __VA_ARGS__ \
@@ -70,6 +75,12 @@ ZQ_CHAIN_TOOL_BASE_INTERFACE(CGFloat, centerY);
 
 
 #pragma mark - Chain Method
+
+#ifdef ZQ_HAS_MASONRY
+- (T(^)(void(^)(MASConstraintMaker *)))mas_makeConstraints;
+- (T(^)(void(^)(MASConstraintMaker *)))mas_updateConstraints;
+- (T(^)(void(^)(MASConstraintMaker *)))mas_remakeConstraints;
+#endif
 
 - (T(^)(void))removeFromSuperview;
 - (T(^)(void))didMoveToSuperview;
