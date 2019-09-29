@@ -58,11 +58,11 @@
 		280E6A06DBA09F333CD914B04E82C232 /* ZQUIDatePickerChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZQUIDatePickerChain.swift; path = ZQUIKitChainTool/Swift/Chain/Control/ZQUIDatePickerChain.swift; sourceTree = "<group>"; };
 		2B460345800C5110F4EF4DF2A943EB3C /* ZQUIPickerViewChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZQUIPickerViewChain.swift; path = ZQUIKitChainTool/Swift/Chain/View/ZQUIPickerViewChain.swift; sourceTree = "<group>"; };
 		2BF7FB5E474741A3E877DA990332B55A /* Pods-ZQUIKitChainToolSwiftDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZQUIKitChainToolSwiftDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2EEFF5BEED3FE696FB88B94354671412 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2EEFF5BEED3FE696FB88B94354671412 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2FA37A1F25F6047E6A04264BFB7EBC60 /* ZQUIImageViewChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZQUIImageViewChain.swift; path = ZQUIKitChainTool/Swift/Chain/View/ZQUIImageViewChain.swift; sourceTree = "<group>"; };
 		35838B39D2A8BAEEB6C4DA5185FE3C0C /* Pods-ZQUIKitChainToolSwiftDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZQUIKitChainToolSwiftDemo-umbrella.h"; sourceTree = "<group>"; };
 		384AA09D765CF17869CDC12879C844D0 /* ZQUISegmentedControlChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZQUISegmentedControlChain.swift; path = ZQUIKitChainTool/Swift/Chain/Control/ZQUISegmentedControlChain.swift; sourceTree = "<group>"; };
-		3D681ABC3306D0A243BB8D508E5F785B /* libPods-ZQUIKitChainToolSwiftDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZQUIKitChainToolSwiftDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D681ABC3306D0A243BB8D508E5F785B /* libPods-ZQUIKitChainToolSwiftDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZQUIKitChainToolSwiftDemo.a"; path = "libPods-ZQUIKitChainToolSwiftDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DFE95FD97E58BB0E807506DA403BB4B /* ZQBaseControlChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZQBaseControlChain.swift; path = ZQUIKitChainTool/Swift/Chain/Base/ZQBaseControlChain.swift; sourceTree = "<group>"; };
 		4527C0A905BB2BD6611A4C1FD21702F7 /* ZQUILabelChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZQUILabelChain.swift; path = ZQUIKitChainTool/Swift/Chain/View/ZQUILabelChain.swift; sourceTree = "<group>"; };
 		47CDD1484DF9D21AAFF87D23345C6A28 /* ZQBaseGestureChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZQBaseGestureChain.swift; path = ZQUIKitChainTool/Swift/Chain/Base/ZQBaseGestureChain.swift; sourceTree = "<group>"; };
@@ -76,8 +76,8 @@
 		8FB1A33EB8839162566FA346224BEBFF /* ZQUIKitChainTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZQUIKitChainTool.xcconfig; sourceTree = "<group>"; };
 		94779A76D46515F279DFC3B9DD6D1399 /* ZQUISwitchChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZQUISwitchChain.swift; path = ZQUIKitChainTool/Swift/Chain/Control/ZQUISwitchChain.swift; sourceTree = "<group>"; };
 		99A98A357806E09E108832A6A86CE565 /* ZQUIButtonChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZQUIButtonChain.swift; path = ZQUIKitChainTool/Swift/Chain/Control/ZQUIButtonChain.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E8FA6BC83B3174741F3DE22960ECFFD /* libZQUIKitChainTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZQUIKitChainTool.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E8FA6BC83B3174741F3DE22960ECFFD /* libZQUIKitChainTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZQUIKitChainTool.a; path = libZQUIKitChainTool.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A188F7624D98601FF782D96BA6EB64AE /* ZQUITableViewChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZQUITableViewChain.swift; path = ZQUIKitChainTool/Swift/Chain/View/ZQUITableViewChain.swift; sourceTree = "<group>"; };
 		A611E8058189F13D05042B1345970D3A /* ZQUITextFieldChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZQUITextFieldChain.swift; path = ZQUIKitChainTool/Swift/Chain/View/ZQUITextFieldChain.swift; sourceTree = "<group>"; };
 		AC08813A6B908FEBE8A881D8241569EA /* ZQUIBarItemChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZQUIBarItemChain.swift; path = ZQUIKitChainTool/Swift/Chain/BarItem/ZQUIBarItemChain.swift; sourceTree = "<group>"; };
@@ -85,10 +85,10 @@
 		C1ED56D88FA3A206EACD48489AD871E0 /* UIKit+ZQChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+ZQChain.swift"; path = "ZQUIKitChainTool/Swift/Category/UIKit+ZQChain.swift"; sourceTree = "<group>"; };
 		C93AD60CA513B7D01DDA10DFD6FB63A1 /* ZQBaseBarItemChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZQBaseBarItemChain.swift; path = ZQUIKitChainTool/Swift/Chain/Base/ZQBaseBarItemChain.swift; sourceTree = "<group>"; };
 		D520F837B23FF2F201AC14B3086508E7 /* ZQBaseViewChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZQBaseViewChain.swift; path = ZQUIKitChainTool/Swift/Chain/Base/ZQBaseViewChain.swift; sourceTree = "<group>"; };
-		D93625A49E2EA3CB853F992CF3DC2780 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D93625A49E2EA3CB853F992CF3DC2780 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		EE6B93D67583A7E9D3F15D123F64A865 /* UIKit+ZQAdd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+ZQAdd.swift"; path = "ZQUIKitChainTool/Swift/Category/UIKit+ZQAdd.swift"; sourceTree = "<group>"; };
 		F0C6402EC0BB14D47992F03123A2D3F7 /* Pods-ZQUIKitChainToolSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZQUIKitChainToolSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		F16A1CBBA43F318E2AFFC31C4A5ABDF2 /* ZQUIKitChainTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZQUIKitChainTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F16A1CBBA43F318E2AFFC31C4A5ABDF2 /* ZQUIKitChainTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZQUIKitChainTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F589BA24B5928F89A578AFDC2F7B258A /* ZQUIKitChainTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZQUIKitChainTool-prefix.pch"; sourceTree = "<group>"; };
 		F6F50026701EE37758CC78D50093099F /* ZQUITextViewChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZQUITextViewChain.swift; path = ZQUIKitChainTool/Swift/Chain/View/ZQUITextViewChain.swift; sourceTree = "<group>"; };
 		FA03C3B640391E15AE46AD521DE81A9E /* ZQUICollectionViewChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZQUICollectionViewChain.swift; path = ZQUIKitChainTool/Swift/Chain/View/ZQUICollectionViewChain.swift; sourceTree = "<group>"; };
@@ -135,9 +135,9 @@
 		10E875B88070E096C4E46E917D7B4C28 /* ZQUIKitChainTool */ = {
 			isa = PBXGroup;
 			children = (
-				A377F1DEC3D9F17B31E7772F2A63A559 /* Swift */,
 				FC820386AAA756BDE6595422F615220C /* Pod */,
 				6124A93DA0A6535BD6BFC42BA8C9F80B /* Support Files */,
+				A377F1DEC3D9F17B31E7772F2A63A559 /* Swift */,
 			);
 			name = ZQUIKitChainTool;
 			path = ../..;

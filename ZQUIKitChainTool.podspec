@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.name         = "ZQUIKitChainTool"
 
     # 组件版本号
-    s.version      = "1.0.1"
+    s.version      = "1.0.2"
 
     # swift版本
     s.swift_versions = '5.0'
