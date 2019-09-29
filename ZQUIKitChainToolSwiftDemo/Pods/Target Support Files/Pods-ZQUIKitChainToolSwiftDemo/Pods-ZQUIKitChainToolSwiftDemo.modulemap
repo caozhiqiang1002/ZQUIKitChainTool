@@ -1,0 +1,6 @@
+module Pods_ZQUIKitChainToolSwiftDemo {
+  umbrella header "Pods-ZQUIKitChainToolSwiftDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

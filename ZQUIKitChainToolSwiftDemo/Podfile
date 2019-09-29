@@ -1,0 +1,5 @@
+platform :ios, '9.0'
+
+target 'ZQUIKitChainToolSwiftDemo' do
+	pod 'ZQUIKitChainTool/Swift', :path => '../'
+end

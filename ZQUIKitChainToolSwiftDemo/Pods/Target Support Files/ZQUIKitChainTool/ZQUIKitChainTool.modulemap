@@ -1,0 +1,6 @@
+module ZQUIKitChainTool {
+  umbrella header "ZQUIKitChainTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

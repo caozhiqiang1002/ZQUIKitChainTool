@@ -1,0 +1,35 @@
+PODS:
+  - ZQUIKitChainTool/Objective-C (1.0.1):
+    - ZQUIKitChainTool/Objective-C/Category (= 1.0.1)
+    - ZQUIKitChainTool/Objective-C/Chain (= 1.0.1)
+  - ZQUIKitChainTool/Objective-C/Category (1.0.1):
+    - ZQUIKitChainTool/Objective-C/Chain
+  - ZQUIKitChainTool/Objective-C/Chain (1.0.1):
+    - ZQUIKitChainTool/Objective-C/Chain/BarItem (= 1.0.1)
+    - ZQUIKitChainTool/Objective-C/Chain/Base (= 1.0.1)
+    - ZQUIKitChainTool/Objective-C/Chain/Control (= 1.0.1)
+    - ZQUIKitChainTool/Objective-C/Chain/Gesture (= 1.0.1)
+    - ZQUIKitChainTool/Objective-C/Chain/View (= 1.0.1)
+  - ZQUIKitChainTool/Objective-C/Chain/BarItem (1.0.1):
+    - ZQUIKitChainTool/Objective-C/Chain/Base
+  - ZQUIKitChainTool/Objective-C/Chain/Base (1.0.1)
+  - ZQUIKitChainTool/Objective-C/Chain/Control (1.0.1):
+    - ZQUIKitChainTool/Objective-C/Chain/Base
+  - ZQUIKitChainTool/Objective-C/Chain/Gesture (1.0.1):
+    - ZQUIKitChainTool/Objective-C/Chain/Base
+  - ZQUIKitChainTool/Objective-C/Chain/View (1.0.1):
+    - ZQUIKitChainTool/Objective-C/Chain/Base
+
+DEPENDENCIES:
+  - ZQUIKitChainTool/Objective-C (from `../`)
+
+EXTERNAL SOURCES:
+  ZQUIKitChainTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZQUIKitChainTool: 2518682cbc38cd64703315c2b1850bee5257db60
+
+PODFILE CHECKSUM: db6dd9e49cea45d36c4292c62564bfcf000dc1ab
+
+COCOAPODS: 1.7.5

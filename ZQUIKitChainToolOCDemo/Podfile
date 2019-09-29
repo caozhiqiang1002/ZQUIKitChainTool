@@ -1,0 +1,5 @@
+platform :ios, '9.0'
+
+target 'ZQUIKitChainToolOCDemo' do
+	pod 'ZQUIKitChainTool/Objective-C', :path => '../'
+end

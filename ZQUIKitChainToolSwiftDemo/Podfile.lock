@@ -1,0 +1,35 @@
+PODS:
+  - ZQUIKitChainTool/Swift (1.0.1):
+    - ZQUIKitChainTool/Swift/Category (= 1.0.1)
+    - ZQUIKitChainTool/Swift/Chain (= 1.0.1)
+  - ZQUIKitChainTool/Swift/Category (1.0.1):
+    - ZQUIKitChainTool/Swift/Chain
+  - ZQUIKitChainTool/Swift/Chain (1.0.1):
+    - ZQUIKitChainTool/Swift/Chain/BarItem (= 1.0.1)
+    - ZQUIKitChainTool/Swift/Chain/Base (= 1.0.1)
+    - ZQUIKitChainTool/Swift/Chain/Control (= 1.0.1)
+    - ZQUIKitChainTool/Swift/Chain/Gesture (= 1.0.1)
+    - ZQUIKitChainTool/Swift/Chain/View (= 1.0.1)
+  - ZQUIKitChainTool/Swift/Chain/BarItem (1.0.1):
+    - ZQUIKitChainTool/Swift/Chain/Base
+  - ZQUIKitChainTool/Swift/Chain/Base (1.0.1)
+  - ZQUIKitChainTool/Swift/Chain/Control (1.0.1):
+    - ZQUIKitChainTool/Swift/Chain/Base
+  - ZQUIKitChainTool/Swift/Chain/Gesture (1.0.1):
+    - ZQUIKitChainTool/Swift/Chain/Base
+  - ZQUIKitChainTool/Swift/Chain/View (1.0.1):
+    - ZQUIKitChainTool/Swift/Chain/Base
+
+DEPENDENCIES:
+  - ZQUIKitChainTool/Swift (from `../`)
+
+EXTERNAL SOURCES:
+  ZQUIKitChainTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZQUIKitChainTool: 2518682cbc38cd64703315c2b1850bee5257db60
+
+PODFILE CHECKSUM: 51e212029760f47d1c7cc8a23750546fa73663ce
+
+COCOAPODS: 1.7.5

@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0C13352339F80400F62823 /* ZQTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C13342339F80400F62823 /* ZQTableViewCell.m */; };
+		2B485DC32330B43A00C4145E /* ZQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B485DC22330B43A00C4145E /* ZQAppDelegate.m */; };
+		2B485DC92330B43A00C4145E /* ZQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B485DC82330B43A00C4145E /* ZQViewController.m */; };
+		2B485DCE2330B43E00C4145E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B485DCD2330B43E00C4145E /* Assets.xcassets */; };
+		2B485DD12330B43E00C4145E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B485DCF2330B43E00C4145E /* LaunchScreen.storyboard */; };
+		2B485DD42330B43E00C4145E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B485DD32330B43E00C4145E /* main.m */; };
+		C21739D0B5EE76B33EF3746A /* libPods-ZQUIKitChainToolOCDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E14ABDF12DE2E2A5171D6E83 /* libPods-ZQUIKitChainToolOCDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		097DAAEA1073EE2C03182CD5 /* Pods-ZQUIKitChainToolOCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQUIKitChainToolOCDemo.release.xcconfig"; path = "Target Support Files/Pods-ZQUIKitChainToolOCDemo/Pods-ZQUIKitChainToolOCDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2B0C13332339F80400F62823 /* ZQTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQTableViewCell.h; sourceTree = "<group>"; };
+		2B0C13342339F80400F62823 /* ZQTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQTableViewCell.m; sourceTree = "<group>"; };
+		2B485DBE2330B43A00C4145E /* ZQUIKitChainToolOCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQUIKitChainToolOCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B485DC12330B43A00C4145E /* ZQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQAppDelegate.h; sourceTree = "<group>"; };
+		2B485DC22330B43A00C4145E /* ZQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQAppDelegate.m; sourceTree = "<group>"; };
+		2B485DC72330B43A00C4145E /* ZQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQViewController.h; sourceTree = "<group>"; };
+		2B485DC82330B43A00C4145E /* ZQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQViewController.m; sourceTree = "<group>"; };
+		2B485DCD2330B43E00C4145E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B485DD02330B43E00C4145E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B485DD22330B43E00C4145E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B485DD32330B43E00C4145E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D25ADA7B68750D9A28842655 /* Pods-ZQUIKitChainToolOCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQUIKitChainToolOCDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZQUIKitChainToolOCDemo/Pods-ZQUIKitChainToolOCDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E14ABDF12DE2E2A5171D6E83 /* libPods-ZQUIKitChainToolOCDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZQUIKitChainToolOCDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B485DBB2330B43A00C4145E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21739D0B5EE76B33EF3746A /* libPods-ZQUIKitChainToolOCDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F847676C490FC820172C7FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E14ABDF12DE2E2A5171D6E83 /* libPods-ZQUIKitChainToolOCDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B485DB52330B43A00C4145E = {
+			isa = PBXGroup;
+			children = (
+				2B485DC02330B43A00C4145E /* ZQUIKitChainToolOCDemo */,
+				2B485DBF2330B43A00C4145E /* Products */,
+				3219C23F5CED2F76E28B1B39 /* Pods */,
+				0F847676C490FC820172C7FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B485DBF2330B43A00C4145E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B485DBE2330B43A00C4145E /* ZQUIKitChainToolOCDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B485DC02330B43A00C4145E /* ZQUIKitChainToolOCDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2B485DC12330B43A00C4145E /* ZQAppDelegate.h */,
+				2B485DC22330B43A00C4145E /* ZQAppDelegate.m */,
+				2B485DC72330B43A00C4145E /* ZQViewController.h */,
+				2B485DC82330B43A00C4145E /* ZQViewController.m */,
+				2B0C13332339F80400F62823 /* ZQTableViewCell.h */,
+				2B0C13342339F80400F62823 /* ZQTableViewCell.m */,
+				2B485DCD2330B43E00C4145E /* Assets.xcassets */,
+				2B485DCF2330B43E00C4145E /* LaunchScreen.storyboard */,
+				2B485DD22330B43E00C4145E /* Info.plist */,
+				2B485DD32330B43E00C4145E /* main.m */,
+			);
+			path = ZQUIKitChainToolOCDemo;
+			sourceTree = "<group>";
+		};
+		3219C23F5CED2F76E28B1B39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D25ADA7B68750D9A28842655 /* Pods-ZQUIKitChainToolOCDemo.debug.xcconfig */,
+				097DAAEA1073EE2C03182CD5 /* Pods-ZQUIKitChainToolOCDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B485DBD2330B43A00C4145E /* ZQUIKitChainToolOCDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B485DD72330B43E00C4145E /* Build configuration list for PBXNativeTarget "ZQUIKitChainToolOCDemo" */;
+			buildPhases = (
+				1601C283FCB17292964F9D9A /* [CP] Check Pods Manifest.lock */,
+				2B485DBA2330B43A00C4145E /* Sources */,
+				2B485DBB2330B43A00C4145E /* Frameworks */,
+				2B485DBC2330B43A00C4145E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZQUIKitChainToolOCDemo;
+			productName = ZQUIKitChainTool;
+			productReference = 2B485DBE2330B43A00C4145E /* ZQUIKitChainToolOCDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B485DB62330B43A00C4145E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = caozhiqiang;
+				TargetAttributes = {
+					2B485DBD2330B43A00C4145E = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 2B485DB92330B43A00C4145E /* Build configuration list for PBXProject "ZQUIKitChainToolOCDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B485DB52330B43A00C4145E;
+			productRefGroup = 2B485DBF2330B43A00C4145E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B485DBD2330B43A00C4145E /* ZQUIKitChainToolOCDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B485DBC2330B43A00C4145E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B485DD12330B43E00C4145E /* LaunchScreen.storyboard in Resources */,
+				2B485DCE2330B43E00C4145E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1601C283FCB17292964F9D9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZQUIKitChainToolOCDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B485DBA2330B43A00C4145E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B485DC92330B43A00C4145E /* ZQViewController.m in Sources */,
+				2B485DC32330B43A00C4145E /* ZQAppDelegate.m in Sources */,
+				2B0C13352339F80400F62823 /* ZQTableViewCell.m in Sources */,
+				2B485DD42330B43E00C4145E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B485DCF2330B43E00C4145E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B485DD02330B43E00C4145E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B485DD52330B43E00C4145E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B485DD62330B43E00C4145E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B485DD82330B43E00C4145E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D25ADA7B68750D9A28842655 /* Pods-ZQUIKitChainToolOCDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 29C5EDQ3MS;
+				INFOPLIST_FILE = ZQUIKitChainToolOCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = sec.wanmei.net.ZQUIKitChainToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = TeamDev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B485DD92330B43E00C4145E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 097DAAEA1073EE2C03182CD5 /* Pods-ZQUIKitChainToolOCDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 29C5EDQ3MS;
+				INFOPLIST_FILE = ZQUIKitChainToolOCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = sec.wanmei.net.ZQUIKitChainToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = TeamDev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B485DB92330B43A00C4145E /* Build configuration list for PBXProject "ZQUIKitChainToolOCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B485DD52330B43E00C4145E /* Debug */,
+				2B485DD62330B43E00C4145E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B485DD72330B43E00C4145E /* Build configuration list for PBXNativeTarget "ZQUIKitChainToolOCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B485DD82330B43E00C4145E /* Debug */,
+				2B485DD92330B43E00C4145E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B485DB62330B43A00C4145E /* Project object */;
+}

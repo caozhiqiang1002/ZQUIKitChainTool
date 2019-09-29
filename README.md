@@ -8,14 +8,26 @@
 
 ### 集成方式
 
+#### 1.Objective-C
 ```
 platform :ios, '9.0'
 
 target 'PROJECT_NAME' do
-   pod 'ZQUIKitChainTool', :source => 'https://github.com/caozhiqiang1002/CZQSpecs.git'
+   pod 'ZQUIKitChainTool/Objective-C', :source => 'https://github.com/caozhiqiang1002/CZQSpecs.git'
    
    # 如果想要使用 Masonry，需要将其引入
    pod 'Masonry'
+end
+```
+
+#### 2.Swift
+```
+platform :ios, '9.0'
+
+use_frameworks!
+
+target 'PROJECT_NAME' do
+   pod 'ZQUIKitChainTool/Swift', :source => 'https://github.com/caozhiqiang1002/CZQSpecs.git'
 end
 ```
 

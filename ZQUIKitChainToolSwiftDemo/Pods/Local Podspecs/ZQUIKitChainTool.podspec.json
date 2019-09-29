@@ -1,0 +1,159 @@
+{
+  "name": "ZQUIKitChainTool",
+  "version": "1.0.1",
+  "swift_versions": "5.0",
+  "summary": "访问系统相册的组件",
+  "description": "该组件用于链式编写UIKit的UI控件，通过链式便于管理每个UI",
+  "homepage": "https://github.com/caozhiqiang1002",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "caozhiqiang1002": "1053524532@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/caozhiqiang1002/ZQUIKitChainTool.git",
+    "tag": "1.0.1"
+  },
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  },
+  "subspecs": [
+    {
+      "name": "Objective-C",
+      "public_header_files": "ZQUIKitChainTool/Objective-C/*.{h}",
+      "source_files": "ZQUIKitChainTool/Objective-C/*.{h}",
+      "subspecs": [
+        {
+          "name": "Chain",
+          "public_header_files": "ZQUIKitChainTool/Objective-C/Chain/*.{h}",
+          "source_files": "ZQUIKitChainTool/Objective-C/Chain/*.{h}",
+          "subspecs": [
+            {
+              "name": "Base",
+              "public_header_files": "ZQUIKitChainTool/Objective-C/Chain/Base/*.{h}",
+              "private_header_files": "ZQUIKitChainTool/Objective-C/Chain/Base/UIView+ZQFrame.h",
+              "source_files": "ZQUIKitChainTool/Objective-C/Chain/Base"
+            },
+            {
+              "name": "BarItem",
+              "public_header_files": "ZQUIKitChainTool/Objective-C/Chain/BarItem/*.{h}",
+              "dependencies": {
+                "ZQUIKitChainTool/Objective-C/Chain/Base": [
+
+                ]
+              },
+              "source_files": "ZQUIKitChainTool/Objective-C/Chain/BarItem"
+            },
+            {
+              "name": "View",
+              "public_header_files": "ZQUIKitChainTool/Objective-C/Chain/View/*.{h}",
+              "dependencies": {
+                "ZQUIKitChainTool/Objective-C/Chain/Base": [
+
+                ]
+              },
+              "source_files": "ZQUIKitChainTool/Objective-C/Chain/View"
+            },
+            {
+              "name": "Gesture",
+              "public_header_files": "ZQUIKitChainTool/Objective-C/Chain/Gesture/*.{h}",
+              "dependencies": {
+                "ZQUIKitChainTool/Objective-C/Chain/Base": [
+
+                ]
+              },
+              "source_files": "ZQUIKitChainTool/Objective-C/Chain/Gesture"
+            },
+            {
+              "name": "Control",
+              "public_header_files": "ZQUIKitChainTool/Objective-C/Chain/Control/*.{h}",
+              "dependencies": {
+                "ZQUIKitChainTool/Objective-C/Chain/Base": [
+
+                ]
+              },
+              "source_files": "ZQUIKitChainTool/Objective-C/Chain/Control"
+            }
+          ]
+        },
+        {
+          "name": "Category",
+          "public_header_files": "ZQUIKitChainTool/Objective-C/Category/*.{h}",
+          "dependencies": {
+            "ZQUIKitChainTool/Objective-C/Chain": [
+
+            ]
+          },
+          "source_files": "ZQUIKitChainTool/Objective-C/Category"
+        }
+      ]
+    },
+    {
+      "name": "Swift",
+      "subspecs": [
+        {
+          "name": "Chain",
+          "subspecs": [
+            {
+              "name": "Base",
+              "source_files": "ZQUIKitChainTool/Swift/Chain/Base"
+            },
+            {
+              "name": "BarItem",
+              "dependencies": {
+                "ZQUIKitChainTool/Swift/Chain/Base": [
+
+                ]
+              },
+              "source_files": "ZQUIKitChainTool/Swift/Chain/BarItem"
+            },
+            {
+              "name": "View",
+              "dependencies": {
+                "ZQUIKitChainTool/Swift/Chain/Base": [
+
+                ]
+              },
+              "source_files": "ZQUIKitChainTool/Swift/Chain/View"
+            },
+            {
+              "name": "Gesture",
+              "dependencies": {
+                "ZQUIKitChainTool/Swift/Chain/Base": [
+
+                ]
+              },
+              "source_files": "ZQUIKitChainTool/Swift/Chain/Gesture"
+            },
+            {
+              "name": "Control",
+              "dependencies": {
+                "ZQUIKitChainTool/Swift/Chain/Base": [
+
+                ]
+              },
+              "source_files": "ZQUIKitChainTool/Swift/Chain/Control"
+            }
+          ]
+        },
+        {
+          "name": "Category",
+          "dependencies": {
+            "ZQUIKitChainTool/Swift/Chain": [
+
+            ]
+          },
+          "source_files": "ZQUIKitChainTool/Swift/Category"
+        }
+      ]
+    }
+  ],
+  "swift_version": "5.0"
+}

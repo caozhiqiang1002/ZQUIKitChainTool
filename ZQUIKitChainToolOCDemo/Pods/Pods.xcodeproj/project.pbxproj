@@ -1,0 +1,834 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06A076A8016D3240D8EC578F1F2C4285 /* ZQUITableViewCellChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2802C161466044125471D51B22E48CBB /* ZQUITableViewCellChainTool.m */; };
+		07FDED6690A7C8BB4C0008FD7B3E4A50 /* ZQUIImageViewChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 731BB686A86F237F7A5CEA36190434FC /* ZQUIImageViewChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		08034BB5ADE4FA8B7F3B8D6C7DB2B121 /* UIKit+ZQChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DB172D0E6AF9A3BFB4FE7C0BACF83C /* UIKit+ZQChain.m */; };
+		125DF9B3FC610351EEF3971A9F59BC65 /* ZQUICollectionViewChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 63DCF1CE30610E71523143043F6B6FAD /* ZQUICollectionViewChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		14B9690CE851198E78E3BE170CBAE7A0 /* ZQWKWebViewChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE99814922D507936DBAAB48C2F0D06 /* ZQWKWebViewChainTool.m */; };
+		1FC00DA341F566D893B3570CBA2AA0B7 /* ZQBaseScrollChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E012C865310F1CCA3EC1993E604F844B /* ZQBaseScrollChainTool.m */; };
+		2ADF362F102C7AD67624C89CD22E1AC0 /* ZQUIGestureChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BEC1F3C2B81CCC8F0714B5A899F3A1 /* ZQUIGestureChainTool.m */; };
+		2EFEECC4FF63827F9DC48F44CDC45914 /* ZQUIKitChainTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB1B6086B02FD1529C693B729B0F2BD /* ZQUIKitChainTool-dummy.m */; };
+		2F6548B5449C1AF735B12459A94A9B32 /* ZQBaseGestureChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 641B4666995F1681152E48A692FDF9CA /* ZQBaseGestureChainTool.m */; };
+		318BFC70134CDB6A2BE0E9888BE76489 /* ZQUIControlChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0F5B19D9B2F8F559842B29D4F81036 /* ZQUIControlChainTool.m */; };
+		326B7A46A9759DCF6FA08050B665E5F9 /* ZQWKWebViewChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = B422AD496D82D37CF7F7DE011D10AA7E /* ZQWKWebViewChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3AD7578B083795FB26954CA76589E45C /* ZQBaseViewChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = F51A3D7A48485D360B8ECC540FD9E055 /* ZQBaseViewChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3B625CA73044550BB1F4627D0C568217 /* ZQUILabelChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 85150AC863887555076C679BC77E4895 /* ZQUILabelChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		40A95672D6272D2D0C0C9953139DAC96 /* ZQUISegmentedControlChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6955C511BD408450F417F1E8B8429B30 /* ZQUISegmentedControlChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		42519934754C7B68C39AFF1E7AA484B8 /* ZQUIDatePickerChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7524B3A5B7CF95C884B824617AB301FD /* ZQUIDatePickerChainTool.m */; };
+		42A3983A4E07EEEAEC88EE2A73659370 /* Pods-ZQUIKitChainToolOCDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BC97159D0A20C994F75A1D19D2242F /* Pods-ZQUIKitChainToolOCDemo-dummy.m */; };
+		4385BF659D8F33953EBE9D8C132BFF32 /* ZQUIKitChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = D54B5127A22A896AB06885DE1F68EF5A /* ZQUIKitChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4F25111A267E42861E9028B94FD4BEDF /* ZQBaseGestureChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6E40A8EAF0A0A19E4B6196BEA6C33F /* ZQBaseGestureChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		52D537124C1CA3565C5B4FD253C061C7 /* ZQBaseReusableChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = C4E4F2EAC778B56994B563092AF6D1C0 /* ZQBaseReusableChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		58DAA7671468B5674531017E290DF961 /* ZQUIKitChainDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DD3DE2F2F51FDE6390BB10437E4F82 /* ZQUIKitChainDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5DAC38EE07EBB0B7F4F9C07B5192F801 /* ZQUIButtonChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDCEA6AC48FD9A67B9120D920C91EEA /* ZQUIButtonChainTool.m */; };
+		648870A7C81EE1FC04E962923E91C734 /* ZQUICollectionViewChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CF543484A8A1717396CBA287473AE1 /* ZQUICollectionViewChainTool.m */; };
+		672AFCD611027D8B057FCEA887B7E466 /* ZQUIProgressViewChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 187F82FFA0D0CBE8EB174CE064EDD07A /* ZQUIProgressViewChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6A1805F2078AF0A1AA15B7410150E396 /* ZQUIBarItemChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = C4AD6E8EC1CB16757EF38518BB5A092B /* ZQUIBarItemChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6D445E51FE758CAAEE737C4EEF900CA1 /* ZQUIPickerViewChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E03C0F772D9AC74BC4840A74B340880 /* ZQUIPickerViewChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6F22A5747098459F99AA51839460E045 /* ZQUIPageControlChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B3E50DBE44CEA505942B7DB2049645 /* ZQUIPageControlChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		705C98CEA8958807ACE8ED07F98B186C /* ZQUISliderChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2682FDEF4D611EBE1B4CE31429143D /* ZQUISliderChainTool.m */; };
+		718969746B9373DA455FA3F3671336FD /* ZQBaseBarItemChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 48136893F85E86517D3AA495E042DF6D /* ZQBaseBarItemChainTool.m */; };
+		724C2CC666973BD9ECA25D5E0BF5CBEE /* ZQUIViewChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = A42E7AE15FEFA51F31523C9F409A718B /* ZQUIViewChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		758E70F234B1AF96FA6EF93AC8314833 /* ZQUITextViewChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C2DEF56FB024F2B7B8143B44B00513 /* ZQUITextViewChainTool.m */; };
+		7B166F6F9310C031728FEEF1FDA99B91 /* UIView+ZQFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 419186EF2FBB78DCB1EA462FBCEFFF8A /* UIView+ZQFrame.m */; };
+		7CD54577BD48F398A0070F23107D77B5 /* ZQUITableViewCellChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 63BB936DF861436F3250A375BA4AA1FF /* ZQUITableViewCellChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81B069C98BCA936ABE2D5FCFABC8A001 /* ZQUICollectionReusableViewChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 043B88AE0EDB41C209214B4CD916CFED /* ZQUICollectionReusableViewChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		865DC3B1C46899DFD1082A83A5905D7A /* ZQUIDatePickerChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB0F85216B22FC44FCEB198A597D320 /* ZQUIDatePickerChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8A2F3FA7AD22D61F5D4D299B3F87B464 /* ZQUICollectionReusableViewChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FD67459449C98EA18CD3E70542EEF2 /* ZQUICollectionReusableViewChainTool.m */; };
+		8ED27BE629D82A971EA78285FCEEC548 /* ZQBaseReusableChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C2425ED8DB3A33E0DE497BCD5CEE32 /* ZQBaseReusableChainTool.m */; };
+		9130FB281EBB32983474C12D315880B2 /* ZQUILabelChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6B57AA6660462784749464ED7F9C94 /* ZQUILabelChainTool.m */; };
+		98691BA41AEED21972B8E1E149594B18 /* ZQUISwitchChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D375BF545C585D7F00845418DAE9EE26 /* ZQUISwitchChainTool.m */; };
+		A0F47D976DBEFDB10F6F0F094F2CCE10 /* ZQUISegmentedControlChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0875B7408D37E5723F8B4EC2F9328FF5 /* ZQUISegmentedControlChainTool.m */; };
+		A33B3EA140154FCE0D0A21A4D93FA875 /* ZQBaseControllChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E56DCA0F4BCEB2129246C11B110F9CE1 /* ZQBaseControllChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A35FE900AEF2DB2416712D765F7AB355 /* UIKit+ZQAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 037DDBB4EC94C0C172ACB5BE8F1F6E88 /* UIKit+ZQAdd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A63C57CE2F9C6E9E55F615D27F2A5CAC /* ZQUITextFieldChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 981427525BD63688BD82DAEE0EF4A512 /* ZQUITextFieldChainTool.m */; };
+		A6AD52C6D0D8BBC46A3405238ACE05F0 /* ZQUIActivityIndicatorViewChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = F42069585A21AAEC3D17DA4D8EB15BF9 /* ZQUIActivityIndicatorViewChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A959BA859CAB1DDC035BBB10C83B8AC0 /* UIView+ZQFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = C48F7360437B4498C5DCFB705679A68D /* UIView+ZQFrame.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AAF0DEE85B6847D5E1EAC8594BB099B4 /* ZQUIControlChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 42991849EF7ED10A45FDA70E88A9A975 /* ZQUIControlChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AFA93E435B3595CF2D827AC6C0B174B2 /* ZQUIImageViewChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 00465C5C0C33CDB4587E9EA5DB47DF47 /* ZQUIImageViewChainTool.m */; };
+		B12152CCE1B4D9C22657292433165638 /* ZQBaseBarItemChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E715B7FE4A740806930407DB5AAF1A7E /* ZQBaseBarItemChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B16E107701A60322BD8736208B0B9122 /* ZQBaseViewChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C04748A93463547278552D9C8941DA /* ZQBaseViewChainTool.m */; };
+		B616C06D2056CB4AD951313AE18A26E7 /* ZQUIProgressViewChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D45DA12CED9E87D02C022ABF0502ED /* ZQUIProgressViewChainTool.m */; };
+		B794652307C3A8CA2B462BDFB7F2F20C /* ZQBaseScrollChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5C62160E2BFF2FCD8E403E40BC3BA5 /* ZQBaseScrollChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BAD599FC38F07F16B1B29339D8A41A1D /* ZQUITextFieldChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E0765CB9DC7DBEF4A398D2F7325E52E5 /* ZQUITextFieldChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BFAEDB2B07880A9105751665513C3B88 /* ZQUIButtonChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = B59B26105687A78190D4F2A9755DEF10 /* ZQUIButtonChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C03987BF194CFC80DB46BA79BB6AF10B /* ZQUIScrollViewChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A84BF4A894949DDDEE9614612AAD8C3 /* ZQUIScrollViewChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C087954080B507294EDCF90AAE4B5BD8 /* ZQUIScrollViewChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D89A9B8626DF037300456F8E42A982D7 /* ZQUIScrollViewChainTool.m */; };
+		C29969A54F2B3F30EFBE15C4BDF4CE49 /* ZQUITextViewChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = FAE42DD155F3DA59066F1A11EA772B8E /* ZQUITextViewChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C42E3FD07ECFEB556F843AF139C5D765 /* ZQUIActivityIndicatorViewChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFE2DCDFD0564438D51A1BDEDBE01D3 /* ZQUIActivityIndicatorViewChainTool.m */; };
+		C47FE6D4C302A3AD48C672AC92418A88 /* ZQUIViewChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9105D3F1AE4C8D952490E8F9D1991B /* ZQUIViewChainTool.m */; };
+		C8169DF763C162F690054FD4B6F2A1A7 /* ZQUISliderChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 03D07281F94743EA3A824B199E596315 /* ZQUISliderChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CE63E49DF67815619581B0298C32F218 /* ZQBaseControllChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B07737E266B98BC6C3F79D76A3368D /* ZQBaseControllChainTool.m */; };
+		CED5173B6C2C2B2AFBF4AFD233CFD701 /* ZQUIPickerViewChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2D7F190F1FBB2DA11F101FB9F2A821 /* ZQUIPickerViewChainTool.m */; };
+		CF36663150B0B200EFF6C60B9176F1CC /* UIKit+ZQChain.h in Headers */ = {isa = PBXBuildFile; fileRef = B483A1B856C2DAFF8E5BB8721829EAC8 /* UIKit+ZQChain.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D37772E5A2353CAD4A9B60F649AA467B /* ZQUIBarItemChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 59623A3CDD16AE2B9402CE93C7BD216C /* ZQUIBarItemChainTool.m */; };
+		D62809055023CE20EA9A0AA13FBF8528 /* UIKit+ZQAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 036D21E4A963905E148C4353FAEBAD3A /* UIKit+ZQAdd.m */; };
+		D8D83BC6F178BFF3C74B63E1B02FF31D /* ZQUISwitchChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 98A87CC69E71B8FDCE25D8557C740F75 /* ZQUISwitchChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E5E50C5094B86A65EDEA32C0F3689939 /* ZQUITableViewChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 480B378FA52D059EDA2512FBF7769442 /* ZQUITableViewChainTool.m */; };
+		F3E90D624FE6718364B7697D454E991A /* ZQUIPageControlChainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A87A5D4D0225F3D7AA739ED896A46BB /* ZQUIPageControlChainTool.m */; };
+		F78F17C45AD812C60220302CBFD7DEAB /* ZQUITableViewChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 35DEB5C0554E413AF7191C39837A028A /* ZQUITableViewChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC9A343FDA740C7AFEC27E95D8C9FADF /* ZQUIGestureChainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = B8A6AC50DA356ADFBB57C878DA6BC612 /* ZQUIGestureChainTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09EFC8C41AD7C5E00D13964ADA7CC0E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A770BEAD580C847E34F045503F82CAE;
+			remoteInfo = ZQUIKitChainTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00465C5C0C33CDB4587E9EA5DB47DF47 /* ZQUIImageViewChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQUIImageViewChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUIImageViewChainTool.m"; sourceTree = "<group>"; };
+		02C2425ED8DB3A33E0DE497BCD5CEE32 /* ZQBaseReusableChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQBaseReusableChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/Base/ZQBaseReusableChainTool.m"; sourceTree = "<group>"; };
+		0361B67DF106CC39DC81EE4FA0953A2E /* Pods-ZQUIKitChainToolOCDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZQUIKitChainToolOCDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		036D21E4A963905E148C4353FAEBAD3A /* UIKit+ZQAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIKit+ZQAdd.m"; path = "ZQUIKitChainTool/Objective-C/Category/UIKit+ZQAdd.m"; sourceTree = "<group>"; };
+		037DDBB4EC94C0C172ACB5BE8F1F6E88 /* UIKit+ZQAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+ZQAdd.h"; path = "ZQUIKitChainTool/Objective-C/Category/UIKit+ZQAdd.h"; sourceTree = "<group>"; };
+		03D07281F94743EA3A824B199E596315 /* ZQUISliderChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQUISliderChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/Control/ZQUISliderChainTool.h"; sourceTree = "<group>"; };
+		03D45DA12CED9E87D02C022ABF0502ED /* ZQUIProgressViewChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQUIProgressViewChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUIProgressViewChainTool.m"; sourceTree = "<group>"; };
+		043B88AE0EDB41C209214B4CD916CFED /* ZQUICollectionReusableViewChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQUICollectionReusableViewChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUICollectionReusableViewChainTool.h"; sourceTree = "<group>"; };
+		0875B7408D37E5723F8B4EC2F9328FF5 /* ZQUISegmentedControlChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQUISegmentedControlChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/Control/ZQUISegmentedControlChainTool.m"; sourceTree = "<group>"; };
+		0A5C62160E2BFF2FCD8E403E40BC3BA5 /* ZQBaseScrollChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQBaseScrollChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/Base/ZQBaseScrollChainTool.h"; sourceTree = "<group>"; };
+		187F82FFA0D0CBE8EB174CE064EDD07A /* ZQUIProgressViewChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQUIProgressViewChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUIProgressViewChainTool.h"; sourceTree = "<group>"; };
+		2802C161466044125471D51B22E48CBB /* ZQUITableViewCellChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQUITableViewCellChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUITableViewCellChainTool.m"; sourceTree = "<group>"; };
+		2A84BF4A894949DDDEE9614612AAD8C3 /* ZQUIScrollViewChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQUIScrollViewChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUIScrollViewChainTool.h"; sourceTree = "<group>"; };
+		2E2D7F190F1FBB2DA11F101FB9F2A821 /* ZQUIPickerViewChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQUIPickerViewChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUIPickerViewChainTool.m"; sourceTree = "<group>"; };
+		35DEB5C0554E413AF7191C39837A028A /* ZQUITableViewChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQUITableViewChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUITableViewChainTool.h"; sourceTree = "<group>"; };
+		37C04748A93463547278552D9C8941DA /* ZQBaseViewChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQBaseViewChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/Base/ZQBaseViewChainTool.m"; sourceTree = "<group>"; };
+		37DB172D0E6AF9A3BFB4FE7C0BACF83C /* UIKit+ZQChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIKit+ZQChain.m"; path = "ZQUIKitChainTool/Objective-C/Category/UIKit+ZQChain.m"; sourceTree = "<group>"; };
+		3AB0F85216B22FC44FCEB198A597D320 /* ZQUIDatePickerChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQUIDatePickerChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/Control/ZQUIDatePickerChainTool.h"; sourceTree = "<group>"; };
+		419186EF2FBB78DCB1EA462FBCEFFF8A /* UIView+ZQFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ZQFrame.m"; path = "ZQUIKitChainTool/Objective-C/Chain/Base/UIView+ZQFrame.m"; sourceTree = "<group>"; };
+		42991849EF7ED10A45FDA70E88A9A975 /* ZQUIControlChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQUIControlChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/Control/ZQUIControlChainTool.h"; sourceTree = "<group>"; };
+		480B378FA52D059EDA2512FBF7769442 /* ZQUITableViewChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQUITableViewChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUITableViewChainTool.m"; sourceTree = "<group>"; };
+		48136893F85E86517D3AA495E042DF6D /* ZQBaseBarItemChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQBaseBarItemChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/Base/ZQBaseBarItemChainTool.m"; sourceTree = "<group>"; };
+		48C6F34035D0F7CC1481513F075BF674 /* Pods-ZQUIKitChainToolOCDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZQUIKitChainToolOCDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		4A87A5D4D0225F3D7AA739ED896A46BB /* ZQUIPageControlChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQUIPageControlChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/Control/ZQUIPageControlChainTool.m"; sourceTree = "<group>"; };
+		505FB9E43B7E74B52791DDC601BC19BD /* ZQUIKitChainTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZQUIKitChainTool-prefix.pch"; sourceTree = "<group>"; };
+		56BC97159D0A20C994F75A1D19D2242F /* Pods-ZQUIKitChainToolOCDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZQUIKitChainToolOCDemo-dummy.m"; sourceTree = "<group>"; };
+		59623A3CDD16AE2B9402CE93C7BD216C /* ZQUIBarItemChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQUIBarItemChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/BarItem/ZQUIBarItemChainTool.m"; sourceTree = "<group>"; };
+		5AB1B6086B02FD1529C693B729B0F2BD /* ZQUIKitChainTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZQUIKitChainTool-dummy.m"; sourceTree = "<group>"; };
+		5DE99814922D507936DBAAB48C2F0D06 /* ZQWKWebViewChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQWKWebViewChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQWKWebViewChainTool.m"; sourceTree = "<group>"; };
+		60CF543484A8A1717396CBA287473AE1 /* ZQUICollectionViewChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQUICollectionViewChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUICollectionViewChainTool.m"; sourceTree = "<group>"; };
+		63BB936DF861436F3250A375BA4AA1FF /* ZQUITableViewCellChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQUITableViewCellChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUITableViewCellChainTool.h"; sourceTree = "<group>"; };
+		63DCF1CE30610E71523143043F6B6FAD /* ZQUICollectionViewChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQUICollectionViewChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUICollectionViewChainTool.h"; sourceTree = "<group>"; };
+		641B4666995F1681152E48A692FDF9CA /* ZQBaseGestureChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQBaseGestureChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/Base/ZQBaseGestureChainTool.m"; sourceTree = "<group>"; };
+		6955C511BD408450F417F1E8B8429B30 /* ZQUISegmentedControlChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQUISegmentedControlChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/Control/ZQUISegmentedControlChainTool.h"; sourceTree = "<group>"; };
+		6D2682FDEF4D611EBE1B4CE31429143D /* ZQUISliderChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQUISliderChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/Control/ZQUISliderChainTool.m"; sourceTree = "<group>"; };
+		72E56CE2F8536B8BE9B674A4C640EFA6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		731495251ED9D04D7A4FD7B857EA05F2 /* libPods-ZQUIKitChainToolOCDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZQUIKitChainToolOCDemo.a"; path = "libPods-ZQUIKitChainToolOCDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		731BB686A86F237F7A5CEA36190434FC /* ZQUIImageViewChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQUIImageViewChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUIImageViewChainTool.h"; sourceTree = "<group>"; };
+		7524B3A5B7CF95C884B824617AB301FD /* ZQUIDatePickerChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQUIDatePickerChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/Control/ZQUIDatePickerChainTool.m"; sourceTree = "<group>"; };
+		7A0F5B19D9B2F8F559842B29D4F81036 /* ZQUIControlChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQUIControlChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/Control/ZQUIControlChainTool.m"; sourceTree = "<group>"; };
+		85150AC863887555076C679BC77E4895 /* ZQUILabelChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQUILabelChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUILabelChainTool.h"; sourceTree = "<group>"; };
+		85C2DEF56FB024F2B7B8143B44B00513 /* ZQUITextViewChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQUITextViewChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUITextViewChainTool.m"; sourceTree = "<group>"; };
+		8C1E8E1BA3355E74426B0CA045945B6E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		981427525BD63688BD82DAEE0EF4A512 /* ZQUITextFieldChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQUITextFieldChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUITextFieldChainTool.m"; sourceTree = "<group>"; };
+		98A87CC69E71B8FDCE25D8557C740F75 /* ZQUISwitchChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQUISwitchChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/Control/ZQUISwitchChainTool.h"; sourceTree = "<group>"; };
+		9C6E40A8EAF0A0A19E4B6196BEA6C33F /* ZQBaseGestureChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQBaseGestureChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/Base/ZQBaseGestureChainTool.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E03C0F772D9AC74BC4840A74B340880 /* ZQUIPickerViewChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQUIPickerViewChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUIPickerViewChainTool.h"; sourceTree = "<group>"; };
+		9E8FA6BC83B3174741F3DE22960ECFFD /* libZQUIKitChainTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZQUIKitChainTool.a; path = libZQUIKitChainTool.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42E7AE15FEFA51F31523C9F409A718B /* ZQUIViewChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQUIViewChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUIViewChainTool.h"; sourceTree = "<group>"; };
+		A8FD67459449C98EA18CD3E70542EEF2 /* ZQUICollectionReusableViewChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQUICollectionReusableViewChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUICollectionReusableViewChainTool.m"; sourceTree = "<group>"; };
+		B422AD496D82D37CF7F7DE011D10AA7E /* ZQWKWebViewChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQWKWebViewChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQWKWebViewChainTool.h"; sourceTree = "<group>"; };
+		B483A1B856C2DAFF8E5BB8721829EAC8 /* UIKit+ZQChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+ZQChain.h"; path = "ZQUIKitChainTool/Objective-C/Category/UIKit+ZQChain.h"; sourceTree = "<group>"; };
+		B59B26105687A78190D4F2A9755DEF10 /* ZQUIButtonChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQUIButtonChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/Control/ZQUIButtonChainTool.h"; sourceTree = "<group>"; };
+		B8A6AC50DA356ADFBB57C878DA6BC612 /* ZQUIGestureChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQUIGestureChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/Gesture/ZQUIGestureChainTool.h"; sourceTree = "<group>"; };
+		C48F7360437B4498C5DCFB705679A68D /* UIView+ZQFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ZQFrame.h"; path = "ZQUIKitChainTool/Objective-C/Chain/Base/UIView+ZQFrame.h"; sourceTree = "<group>"; };
+		C4AD6E8EC1CB16757EF38518BB5A092B /* ZQUIBarItemChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQUIBarItemChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/BarItem/ZQUIBarItemChainTool.h"; sourceTree = "<group>"; };
+		C4E4F2EAC778B56994B563092AF6D1C0 /* ZQBaseReusableChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQBaseReusableChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/Base/ZQBaseReusableChainTool.h"; sourceTree = "<group>"; };
+		C82AE71A83723812375F45010D00D9D1 /* ZQUIKitChainTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZQUIKitChainTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C9B3E50DBE44CEA505942B7DB2049645 /* ZQUIPageControlChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQUIPageControlChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/Control/ZQUIPageControlChainTool.h"; sourceTree = "<group>"; };
+		C9BEC1F3C2B81CCC8F0714B5A899F3A1 /* ZQUIGestureChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQUIGestureChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/Gesture/ZQUIGestureChainTool.m"; sourceTree = "<group>"; };
+		CC9105D3F1AE4C8D952490E8F9D1991B /* ZQUIViewChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQUIViewChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUIViewChainTool.m"; sourceTree = "<group>"; };
+		CEDCEA6AC48FD9A67B9120D920C91EEA /* ZQUIButtonChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQUIButtonChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/Control/ZQUIButtonChainTool.m"; sourceTree = "<group>"; };
+		D0B07737E266B98BC6C3F79D76A3368D /* ZQBaseControllChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQBaseControllChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/Base/ZQBaseControllChainTool.m"; sourceTree = "<group>"; };
+		D1B18BAF5D21BEE473E23C87BAD3064C /* ZQUIKitChainTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZQUIKitChainTool.xcconfig; sourceTree = "<group>"; };
+		D375BF545C585D7F00845418DAE9EE26 /* ZQUISwitchChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQUISwitchChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/Control/ZQUISwitchChainTool.m"; sourceTree = "<group>"; };
+		D54B5127A22A896AB06885DE1F68EF5A /* ZQUIKitChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQUIKitChainTool.h; path = "ZQUIKitChainTool/Objective-C/ZQUIKitChainTool.h"; sourceTree = "<group>"; };
+		D89A9B8626DF037300456F8E42A982D7 /* ZQUIScrollViewChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQUIScrollViewChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUIScrollViewChainTool.m"; sourceTree = "<group>"; };
+		DB6B57AA6660462784749464ED7F9C94 /* ZQUILabelChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQUILabelChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUILabelChainTool.m"; sourceTree = "<group>"; };
+		E012C865310F1CCA3EC1993E604F844B /* ZQBaseScrollChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQBaseScrollChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/Base/ZQBaseScrollChainTool.m"; sourceTree = "<group>"; };
+		E0765CB9DC7DBEF4A398D2F7325E52E5 /* ZQUITextFieldChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQUITextFieldChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUITextFieldChainTool.h"; sourceTree = "<group>"; };
+		E56DCA0F4BCEB2129246C11B110F9CE1 /* ZQBaseControllChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQBaseControllChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/Base/ZQBaseControllChainTool.h"; sourceTree = "<group>"; };
+		E715B7FE4A740806930407DB5AAF1A7E /* ZQBaseBarItemChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQBaseBarItemChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/Base/ZQBaseBarItemChainTool.h"; sourceTree = "<group>"; };
+		ECFE2DCDFD0564438D51A1BDEDBE01D3 /* ZQUIActivityIndicatorViewChainTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZQUIActivityIndicatorViewChainTool.m; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUIActivityIndicatorViewChainTool.m"; sourceTree = "<group>"; };
+		F2DD3DE2F2F51FDE6390BB10437E4F82 /* ZQUIKitChainDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQUIKitChainDefine.h; path = "ZQUIKitChainTool/Objective-C/Chain/ZQUIKitChainDefine.h"; sourceTree = "<group>"; };
+		F42069585A21AAEC3D17DA4D8EB15BF9 /* ZQUIActivityIndicatorViewChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQUIActivityIndicatorViewChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUIActivityIndicatorViewChainTool.h"; sourceTree = "<group>"; };
+		F51A3D7A48485D360B8ECC540FD9E055 /* ZQBaseViewChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQBaseViewChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/Base/ZQBaseViewChainTool.h"; sourceTree = "<group>"; };
+		F92BCF5DB065C3F7CBBFB836DAF58769 /* Pods-ZQUIKitChainToolOCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZQUIKitChainToolOCDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FAE42DD155F3DA59066F1A11EA772B8E /* ZQUITextViewChainTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZQUITextViewChainTool.h; path = "ZQUIKitChainTool/Objective-C/Chain/View/ZQUITextViewChainTool.h"; sourceTree = "<group>"; };
+		FD26754CF814532A2873C3E2EB0C6729 /* Pods-ZQUIKitChainToolOCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZQUIKitChainToolOCDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74B4D8D26FC006CACE0CA66DA7804CD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B2A24C585AC5401278B87C212653FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		088C12E4AD8195FD7C631B539200A361 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8C1E8E1BA3355E74426B0CA045945B6E /* LICENSE */,
+				72E56CE2F8536B8BE9B674A4C640EFA6 /* README.md */,
+				C82AE71A83723812375F45010D00D9D1 /* ZQUIKitChainTool.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0F20D5A9D28CEFEB3BB122127E729A51 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C48F7360437B4498C5DCFB705679A68D /* UIView+ZQFrame.h */,
+				419186EF2FBB78DCB1EA462FBCEFFF8A /* UIView+ZQFrame.m */,
+				E715B7FE4A740806930407DB5AAF1A7E /* ZQBaseBarItemChainTool.h */,
+				48136893F85E86517D3AA495E042DF6D /* ZQBaseBarItemChainTool.m */,
+				E56DCA0F4BCEB2129246C11B110F9CE1 /* ZQBaseControllChainTool.h */,
+				D0B07737E266B98BC6C3F79D76A3368D /* ZQBaseControllChainTool.m */,
+				9C6E40A8EAF0A0A19E4B6196BEA6C33F /* ZQBaseGestureChainTool.h */,
+				641B4666995F1681152E48A692FDF9CA /* ZQBaseGestureChainTool.m */,
+				C4E4F2EAC778B56994B563092AF6D1C0 /* ZQBaseReusableChainTool.h */,
+				02C2425ED8DB3A33E0DE497BCD5CEE32 /* ZQBaseReusableChainTool.m */,
+				0A5C62160E2BFF2FCD8E403E40BC3BA5 /* ZQBaseScrollChainTool.h */,
+				E012C865310F1CCA3EC1993E604F844B /* ZQBaseScrollChainTool.m */,
+				F51A3D7A48485D360B8ECC540FD9E055 /* ZQBaseViewChainTool.h */,
+				37C04748A93463547278552D9C8941DA /* ZQBaseViewChainTool.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		16CC3B54DAC2299079380BF65FC8850C /* BarItem */ = {
+			isa = PBXGroup;
+			children = (
+				C4AD6E8EC1CB16757EF38518BB5A092B /* ZQUIBarItemChainTool.h */,
+				59623A3CDD16AE2B9402CE93C7BD216C /* ZQUIBarItemChainTool.m */,
+			);
+			name = BarItem;
+			sourceTree = "<group>";
+		};
+		2173CAF847EC33E88A460A77974944DF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				810EADE766BD522A4D576E87DA3A3F02 /* Pods-ZQUIKitChainToolOCDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6BB9B4CA3E006447995C70FB5DDAFC21 /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				B8A6AC50DA356ADFBB57C878DA6BC612 /* ZQUIGestureChainTool.h */,
+				C9BEC1F3C2B81CCC8F0714B5A899F3A1 /* ZQUIGestureChainTool.m */,
+			);
+			name = Gesture;
+			sourceTree = "<group>";
+		};
+		80399B9FC13078D2BFF9E7E1541ABA4D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				037DDBB4EC94C0C172ACB5BE8F1F6E88 /* UIKit+ZQAdd.h */,
+				036D21E4A963905E148C4353FAEBAD3A /* UIKit+ZQAdd.m */,
+				B483A1B856C2DAFF8E5BB8721829EAC8 /* UIKit+ZQChain.h */,
+				37DB172D0E6AF9A3BFB4FE7C0BACF83C /* UIKit+ZQChain.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		810EADE766BD522A4D576E87DA3A3F02 /* Pods-ZQUIKitChainToolOCDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0361B67DF106CC39DC81EE4FA0953A2E /* Pods-ZQUIKitChainToolOCDemo-acknowledgements.markdown */,
+				48C6F34035D0F7CC1481513F075BF674 /* Pods-ZQUIKitChainToolOCDemo-acknowledgements.plist */,
+				56BC97159D0A20C994F75A1D19D2242F /* Pods-ZQUIKitChainToolOCDemo-dummy.m */,
+				F92BCF5DB065C3F7CBBFB836DAF58769 /* Pods-ZQUIKitChainToolOCDemo.debug.xcconfig */,
+				FD26754CF814532A2873C3E2EB0C6729 /* Pods-ZQUIKitChainToolOCDemo.release.xcconfig */,
+			);
+			name = "Pods-ZQUIKitChainToolOCDemo";
+			path = "Target Support Files/Pods-ZQUIKitChainToolOCDemo";
+			sourceTree = "<group>";
+		};
+		8983034104699290CEC3F3003177D993 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1B18BAF5D21BEE473E23C87BAD3064C /* ZQUIKitChainTool.xcconfig */,
+				5AB1B6086B02FD1529C693B729B0F2BD /* ZQUIKitChainTool-dummy.m */,
+				505FB9E43B7E74B52791DDC601BC19BD /* ZQUIKitChainTool-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "ZQUIKitChainToolOCDemo/Pods/Target Support Files/ZQUIKitChainTool";
+			sourceTree = "<group>";
+		};
+		A75BF845FB0E9AA0EF81B52F2F835800 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				B59B26105687A78190D4F2A9755DEF10 /* ZQUIButtonChainTool.h */,
+				CEDCEA6AC48FD9A67B9120D920C91EEA /* ZQUIButtonChainTool.m */,
+				42991849EF7ED10A45FDA70E88A9A975 /* ZQUIControlChainTool.h */,
+				7A0F5B19D9B2F8F559842B29D4F81036 /* ZQUIControlChainTool.m */,
+				3AB0F85216B22FC44FCEB198A597D320 /* ZQUIDatePickerChainTool.h */,
+				7524B3A5B7CF95C884B824617AB301FD /* ZQUIDatePickerChainTool.m */,
+				C9B3E50DBE44CEA505942B7DB2049645 /* ZQUIPageControlChainTool.h */,
+				4A87A5D4D0225F3D7AA739ED896A46BB /* ZQUIPageControlChainTool.m */,
+				6955C511BD408450F417F1E8B8429B30 /* ZQUISegmentedControlChainTool.h */,
+				0875B7408D37E5723F8B4EC2F9328FF5 /* ZQUISegmentedControlChainTool.m */,
+				03D07281F94743EA3A824B199E596315 /* ZQUISliderChainTool.h */,
+				6D2682FDEF4D611EBE1B4CE31429143D /* ZQUISliderChainTool.m */,
+				98A87CC69E71B8FDCE25D8557C740F75 /* ZQUISwitchChainTool.h */,
+				D375BF545C585D7F00845418DAE9EE26 /* ZQUISwitchChainTool.m */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		A795D07866B6216FBC565AB3E6127DD9 /* Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				D54B5127A22A896AB06885DE1F68EF5A /* ZQUIKitChainTool.h */,
+				80399B9FC13078D2BFF9E7E1541ABA4D /* Category */,
+				B8724F1016A3886EB11AE0CF873700D7 /* Chain */,
+			);
+			name = "Objective-C";
+			sourceTree = "<group>";
+		};
+		AC07208AD62234C2556FA1E3BBA12CC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F42069585A21AAEC3D17DA4D8EB15BF9 /* ZQUIActivityIndicatorViewChainTool.h */,
+				ECFE2DCDFD0564438D51A1BDEDBE01D3 /* ZQUIActivityIndicatorViewChainTool.m */,
+				043B88AE0EDB41C209214B4CD916CFED /* ZQUICollectionReusableViewChainTool.h */,
+				A8FD67459449C98EA18CD3E70542EEF2 /* ZQUICollectionReusableViewChainTool.m */,
+				63DCF1CE30610E71523143043F6B6FAD /* ZQUICollectionViewChainTool.h */,
+				60CF543484A8A1717396CBA287473AE1 /* ZQUICollectionViewChainTool.m */,
+				731BB686A86F237F7A5CEA36190434FC /* ZQUIImageViewChainTool.h */,
+				00465C5C0C33CDB4587E9EA5DB47DF47 /* ZQUIImageViewChainTool.m */,
+				85150AC863887555076C679BC77E4895 /* ZQUILabelChainTool.h */,
+				DB6B57AA6660462784749464ED7F9C94 /* ZQUILabelChainTool.m */,
+				9E03C0F772D9AC74BC4840A74B340880 /* ZQUIPickerViewChainTool.h */,
+				2E2D7F190F1FBB2DA11F101FB9F2A821 /* ZQUIPickerViewChainTool.m */,
+				187F82FFA0D0CBE8EB174CE064EDD07A /* ZQUIProgressViewChainTool.h */,
+				03D45DA12CED9E87D02C022ABF0502ED /* ZQUIProgressViewChainTool.m */,
+				2A84BF4A894949DDDEE9614612AAD8C3 /* ZQUIScrollViewChainTool.h */,
+				D89A9B8626DF037300456F8E42A982D7 /* ZQUIScrollViewChainTool.m */,
+				63BB936DF861436F3250A375BA4AA1FF /* ZQUITableViewCellChainTool.h */,
+				2802C161466044125471D51B22E48CBB /* ZQUITableViewCellChainTool.m */,
+				35DEB5C0554E413AF7191C39837A028A /* ZQUITableViewChainTool.h */,
+				480B378FA52D059EDA2512FBF7769442 /* ZQUITableViewChainTool.m */,
+				E0765CB9DC7DBEF4A398D2F7325E52E5 /* ZQUITextFieldChainTool.h */,
+				981427525BD63688BD82DAEE0EF4A512 /* ZQUITextFieldChainTool.m */,
+				FAE42DD155F3DA59066F1A11EA772B8E /* ZQUITextViewChainTool.h */,
+				85C2DEF56FB024F2B7B8143B44B00513 /* ZQUITextViewChainTool.m */,
+				A42E7AE15FEFA51F31523C9F409A718B /* ZQUIViewChainTool.h */,
+				CC9105D3F1AE4C8D952490E8F9D1991B /* ZQUIViewChainTool.m */,
+				B422AD496D82D37CF7F7DE011D10AA7E /* ZQWKWebViewChainTool.h */,
+				5DE99814922D507936DBAAB48C2F0D06 /* ZQWKWebViewChainTool.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B8724F1016A3886EB11AE0CF873700D7 /* Chain */ = {
+			isa = PBXGroup;
+			children = (
+				F2DD3DE2F2F51FDE6390BB10437E4F82 /* ZQUIKitChainDefine.h */,
+				16CC3B54DAC2299079380BF65FC8850C /* BarItem */,
+				0F20D5A9D28CEFEB3BB122127E729A51 /* Base */,
+				A75BF845FB0E9AA0EF81B52F2F835800 /* Control */,
+				6BB9B4CA3E006447995C70FB5DDAFC21 /* Gesture */,
+				AC07208AD62234C2556FA1E3BBA12CC3 /* View */,
+			);
+			name = Chain;
+			sourceTree = "<group>";
+		};
+		C773E437E2A6A998C7F48DA4FD3DB6D8 /* ZQUIKitChainTool */ = {
+			isa = PBXGroup;
+			children = (
+				A795D07866B6216FBC565AB3E6127DD9 /* Objective-C */,
+				088C12E4AD8195FD7C631B539200A361 /* Pod */,
+				8983034104699290CEC3F3003177D993 /* Support Files */,
+			);
+			name = ZQUIKitChainTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				EDBE2526C0E889B2B997D191B2A1E307 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				D606F068B0717779E11F231C02E24045 /* Products */,
+				2173CAF847EC33E88A460A77974944DF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D606F068B0717779E11F231C02E24045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				731495251ED9D04D7A4FD7B857EA05F2 /* libPods-ZQUIKitChainToolOCDemo.a */,
+				9E8FA6BC83B3174741F3DE22960ECFFD /* libZQUIKitChainTool.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDBE2526C0E889B2B997D191B2A1E307 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C773E437E2A6A998C7F48DA4FD3DB6D8 /* ZQUIKitChainTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		829C89EFEDE55ABA594D1F047FF0FCCF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E50C181D236B737DD7A4A2EE571863 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A35FE900AEF2DB2416712D765F7AB355 /* UIKit+ZQAdd.h in Headers */,
+				CF36663150B0B200EFF6C60B9176F1CC /* UIKit+ZQChain.h in Headers */,
+				A959BA859CAB1DDC035BBB10C83B8AC0 /* UIView+ZQFrame.h in Headers */,
+				B12152CCE1B4D9C22657292433165638 /* ZQBaseBarItemChainTool.h in Headers */,
+				A33B3EA140154FCE0D0A21A4D93FA875 /* ZQBaseControllChainTool.h in Headers */,
+				4F25111A267E42861E9028B94FD4BEDF /* ZQBaseGestureChainTool.h in Headers */,
+				52D537124C1CA3565C5B4FD253C061C7 /* ZQBaseReusableChainTool.h in Headers */,
+				B794652307C3A8CA2B462BDFB7F2F20C /* ZQBaseScrollChainTool.h in Headers */,
+				3AD7578B083795FB26954CA76589E45C /* ZQBaseViewChainTool.h in Headers */,
+				A6AD52C6D0D8BBC46A3405238ACE05F0 /* ZQUIActivityIndicatorViewChainTool.h in Headers */,
+				6A1805F2078AF0A1AA15B7410150E396 /* ZQUIBarItemChainTool.h in Headers */,
+				BFAEDB2B07880A9105751665513C3B88 /* ZQUIButtonChainTool.h in Headers */,
+				81B069C98BCA936ABE2D5FCFABC8A001 /* ZQUICollectionReusableViewChainTool.h in Headers */,
+				125DF9B3FC610351EEF3971A9F59BC65 /* ZQUICollectionViewChainTool.h in Headers */,
+				AAF0DEE85B6847D5E1EAC8594BB099B4 /* ZQUIControlChainTool.h in Headers */,
+				865DC3B1C46899DFD1082A83A5905D7A /* ZQUIDatePickerChainTool.h in Headers */,
+				FC9A343FDA740C7AFEC27E95D8C9FADF /* ZQUIGestureChainTool.h in Headers */,
+				07FDED6690A7C8BB4C0008FD7B3E4A50 /* ZQUIImageViewChainTool.h in Headers */,
+				58DAA7671468B5674531017E290DF961 /* ZQUIKitChainDefine.h in Headers */,
+				4385BF659D8F33953EBE9D8C132BFF32 /* ZQUIKitChainTool.h in Headers */,
+				3B625CA73044550BB1F4627D0C568217 /* ZQUILabelChainTool.h in Headers */,
+				6F22A5747098459F99AA51839460E045 /* ZQUIPageControlChainTool.h in Headers */,
+				6D445E51FE758CAAEE737C4EEF900CA1 /* ZQUIPickerViewChainTool.h in Headers */,
+				672AFCD611027D8B057FCEA887B7E466 /* ZQUIProgressViewChainTool.h in Headers */,
+				C03987BF194CFC80DB46BA79BB6AF10B /* ZQUIScrollViewChainTool.h in Headers */,
+				40A95672D6272D2D0C0C9953139DAC96 /* ZQUISegmentedControlChainTool.h in Headers */,
+				C8169DF763C162F690054FD4B6F2A1A7 /* ZQUISliderChainTool.h in Headers */,
+				D8D83BC6F178BFF3C74B63E1B02FF31D /* ZQUISwitchChainTool.h in Headers */,
+				7CD54577BD48F398A0070F23107D77B5 /* ZQUITableViewCellChainTool.h in Headers */,
+				F78F17C45AD812C60220302CBFD7DEAB /* ZQUITableViewChainTool.h in Headers */,
+				BAD599FC38F07F16B1B29339D8A41A1D /* ZQUITextFieldChainTool.h in Headers */,
+				C29969A54F2B3F30EFBE15C4BDF4CE49 /* ZQUITextViewChainTool.h in Headers */,
+				724C2CC666973BD9ECA25D5E0BF5CBEE /* ZQUIViewChainTool.h in Headers */,
+				326B7A46A9759DCF6FA08050B665E5F9 /* ZQWKWebViewChainTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A770BEAD580C847E34F045503F82CAE /* ZQUIKitChainTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB393975CE5B88C9CD68DDDD22769385 /* Build configuration list for PBXNativeTarget "ZQUIKitChainTool" */;
+			buildPhases = (
+				94E50C181D236B737DD7A4A2EE571863 /* Headers */,
+				22CE702B1E70F4D506AC8691EF6D43DA /* Sources */,
+				84B2A24C585AC5401278B87C212653FA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZQUIKitChainTool;
+			productName = ZQUIKitChainTool;
+			productReference = 9E8FA6BC83B3174741F3DE22960ECFFD /* libZQUIKitChainTool.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		51BEBE491361973429768EA0772BFAE1 /* Pods-ZQUIKitChainToolOCDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0205EEDED9308274CB205C02AD2DDA66 /* Build configuration list for PBXNativeTarget "Pods-ZQUIKitChainToolOCDemo" */;
+			buildPhases = (
+				829C89EFEDE55ABA594D1F047FF0FCCF /* Headers */,
+				F576F66BFDBCE60A7A35BB0D670C394A /* Sources */,
+				74B4D8D26FC006CACE0CA66DA7804CD5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58315DD7C2D22DB8AFF52CAF2AB9E19D /* PBXTargetDependency */,
+			);
+			name = "Pods-ZQUIKitChainToolOCDemo";
+			productName = "Pods-ZQUIKitChainToolOCDemo";
+			productReference = 731495251ED9D04D7A4FD7B857EA05F2 /* libPods-ZQUIKitChainToolOCDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D606F068B0717779E11F231C02E24045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51BEBE491361973429768EA0772BFAE1 /* Pods-ZQUIKitChainToolOCDemo */,
+				0A770BEAD580C847E34F045503F82CAE /* ZQUIKitChainTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22CE702B1E70F4D506AC8691EF6D43DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62809055023CE20EA9A0AA13FBF8528 /* UIKit+ZQAdd.m in Sources */,
+				08034BB5ADE4FA8B7F3B8D6C7DB2B121 /* UIKit+ZQChain.m in Sources */,
+				7B166F6F9310C031728FEEF1FDA99B91 /* UIView+ZQFrame.m in Sources */,
+				718969746B9373DA455FA3F3671336FD /* ZQBaseBarItemChainTool.m in Sources */,
+				CE63E49DF67815619581B0298C32F218 /* ZQBaseControllChainTool.m in Sources */,
+				2F6548B5449C1AF735B12459A94A9B32 /* ZQBaseGestureChainTool.m in Sources */,
+				8ED27BE629D82A971EA78285FCEEC548 /* ZQBaseReusableChainTool.m in Sources */,
+				1FC00DA341F566D893B3570CBA2AA0B7 /* ZQBaseScrollChainTool.m in Sources */,
+				B16E107701A60322BD8736208B0B9122 /* ZQBaseViewChainTool.m in Sources */,
+				C42E3FD07ECFEB556F843AF139C5D765 /* ZQUIActivityIndicatorViewChainTool.m in Sources */,
+				D37772E5A2353CAD4A9B60F649AA467B /* ZQUIBarItemChainTool.m in Sources */,
+				5DAC38EE07EBB0B7F4F9C07B5192F801 /* ZQUIButtonChainTool.m in Sources */,
+				8A2F3FA7AD22D61F5D4D299B3F87B464 /* ZQUICollectionReusableViewChainTool.m in Sources */,
+				648870A7C81EE1FC04E962923E91C734 /* ZQUICollectionViewChainTool.m in Sources */,
+				318BFC70134CDB6A2BE0E9888BE76489 /* ZQUIControlChainTool.m in Sources */,
+				42519934754C7B68C39AFF1E7AA484B8 /* ZQUIDatePickerChainTool.m in Sources */,
+				2ADF362F102C7AD67624C89CD22E1AC0 /* ZQUIGestureChainTool.m in Sources */,
+				AFA93E435B3595CF2D827AC6C0B174B2 /* ZQUIImageViewChainTool.m in Sources */,
+				2EFEECC4FF63827F9DC48F44CDC45914 /* ZQUIKitChainTool-dummy.m in Sources */,
+				9130FB281EBB32983474C12D315880B2 /* ZQUILabelChainTool.m in Sources */,
+				F3E90D624FE6718364B7697D454E991A /* ZQUIPageControlChainTool.m in Sources */,
+				CED5173B6C2C2B2AFBF4AFD233CFD701 /* ZQUIPickerViewChainTool.m in Sources */,
+				B616C06D2056CB4AD951313AE18A26E7 /* ZQUIProgressViewChainTool.m in Sources */,
+				C087954080B507294EDCF90AAE4B5BD8 /* ZQUIScrollViewChainTool.m in Sources */,
+				A0F47D976DBEFDB10F6F0F094F2CCE10 /* ZQUISegmentedControlChainTool.m in Sources */,
+				705C98CEA8958807ACE8ED07F98B186C /* ZQUISliderChainTool.m in Sources */,
+				98691BA41AEED21972B8E1E149594B18 /* ZQUISwitchChainTool.m in Sources */,
+				06A076A8016D3240D8EC578F1F2C4285 /* ZQUITableViewCellChainTool.m in Sources */,
+				E5E50C5094B86A65EDEA32C0F3689939 /* ZQUITableViewChainTool.m in Sources */,
+				A63C57CE2F9C6E9E55F615D27F2A5CAC /* ZQUITextFieldChainTool.m in Sources */,
+				758E70F234B1AF96FA6EF93AC8314833 /* ZQUITextViewChainTool.m in Sources */,
+				C47FE6D4C302A3AD48C672AC92418A88 /* ZQUIViewChainTool.m in Sources */,
+				14B9690CE851198E78E3BE170CBAE7A0 /* ZQWKWebViewChainTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F576F66BFDBCE60A7A35BB0D670C394A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A3983A4E07EEEAEC88EE2A73659370 /* Pods-ZQUIKitChainToolOCDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58315DD7C2D22DB8AFF52CAF2AB9E19D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZQUIKitChainTool;
+			target = 0A770BEAD580C847E34F045503F82CAE /* ZQUIKitChainTool */;
+			targetProxy = 09EFC8C41AD7C5E00D13964ADA7CC0E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E35AA777E5091303C6CEA8CEFC726BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1B18BAF5D21BEE473E23C87BAD3064C /* ZQUIKitChainTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZQUIKitChainTool/ZQUIKitChainTool-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZQUIKitChainTool;
+				PRODUCT_NAME = ZQUIKitChainTool;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ACD9E1E68718B235B602387E44288FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1B18BAF5D21BEE473E23C87BAD3064C /* ZQUIKitChainTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZQUIKitChainTool/ZQUIKitChainTool-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZQUIKitChainTool;
+				PRODUCT_NAME = ZQUIKitChainTool;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC9C960D7055C574B0FFCDA7B8E6676F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F92BCF5DB065C3F7CBBFB836DAF58769 /* Pods-ZQUIKitChainToolOCDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3A884C8C363100523499BB086683ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD26754CF814532A2873C3E2EB0C6729 /* Pods-ZQUIKitChainToolOCDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0205EEDED9308274CB205C02AD2DDA66 /* Build configuration list for PBXNativeTarget "Pods-ZQUIKitChainToolOCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9C960D7055C574B0FFCDA7B8E6676F /* Debug */,
+				E3A884C8C363100523499BB086683ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB393975CE5B88C9CD68DDDD22769385 /* Build configuration list for PBXNativeTarget "ZQUIKitChainTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E35AA777E5091303C6CEA8CEFC726BF /* Debug */,
+				ACD9E1E68718B235B602387E44288FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
